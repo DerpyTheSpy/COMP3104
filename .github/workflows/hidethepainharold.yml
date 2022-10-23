@@ -15,4 +15,7 @@ jobs:
         run: npm i
 
       - name: run tests
-        run: npm run tests
+        run: npm run test
+
+      - name: install yarn
+        run: npm install -g yarn
