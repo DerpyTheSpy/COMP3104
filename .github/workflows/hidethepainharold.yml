@@ -16,3 +16,6 @@ jobs:
 
       - name: run tests
         run: npm run tests
+
+      - name: install yarn
+        run: npm install -g yarn
